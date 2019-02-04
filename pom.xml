@@ -62,6 +62,12 @@
             <artifactId>groundwork</artifactId>
             <version>${groundwork.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.rnkrsoft.android</groupId>
+            <artifactId>android-stub</artifactId>
+            <version>1.0.0</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     <developers>
         <developer>
