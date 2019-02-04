@@ -39,7 +39,7 @@ import javax.web.doc.annotation.ApidocService;
 
 /**
  * Created by rnkrsoft.com on 2018/6/27.
- * 公共发布服务，用于对接口的发布服务
+ * 公共发布服务，用于安卓对接口的发布服务
  */
 @ApidocService(value = "发布服务", version = "1", channel = "public")
 public interface AndroidPublishService {
