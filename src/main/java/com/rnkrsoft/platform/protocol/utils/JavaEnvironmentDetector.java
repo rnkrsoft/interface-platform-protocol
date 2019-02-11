@@ -48,7 +48,7 @@ public class JavaEnvironmentDetector {
         if (!"amd64".equals(os) && !"x86".equals(os)) {
             try {
                 Class clazz = Class.forName("android.os.Environment");
-                Method method = clazz.getMethod("isExternalStorageEmulated", new Class[0]);
+                Method method = clazz.getMethod("isExternalStorageEmulated", new Class<?>[0]);
                 method.invoke(null);
                 //只有能够抵达这里才算是安卓环境,否则都是PC环境
                 return true;

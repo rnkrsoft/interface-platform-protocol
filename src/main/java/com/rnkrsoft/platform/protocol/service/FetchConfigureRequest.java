@@ -48,7 +48,7 @@ public class FetchConfigureRequest implements Serializable{
     String uic;
 
     @ApidocElement(value = "请求通道")
-    final List<String> channels = new ArrayList();
+    final List<String> channels = new ArrayList<String>();
 
     @ApidocElement(value = "设备类型", enumClass = DeviceTypeEnum.class)
     String deviceType;
