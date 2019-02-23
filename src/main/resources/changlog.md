@@ -8,4 +8,8 @@
 7.增加998 系统正在维护，请稍后重试
 8.增加ApiResponse updateMetadataTimestamp,updateConfigureTimestamp属性，用于标记接口元信息更新时间，远程配置更新时间
 
+1.0.2
+1.修改开源协议为GPL
+2.增加AndroidPublishService,用于对安卓发布服务支持
+
 
