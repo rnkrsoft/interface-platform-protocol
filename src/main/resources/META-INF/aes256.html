@@ -8,12 +8,14 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="renderer" content="webkit" />
-
+		<title>AES256加密数据范例</title>
 	</head>
 
 	<body>
+		此页面用于演示可以支持安卓，iOS和H5的加密互通算法例子
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="crypto-js.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
 				//盐的BASE64处理 [0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xA, 0xB, 0xC, 0xD, 0xE, 0xF]
