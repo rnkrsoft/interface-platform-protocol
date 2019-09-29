@@ -348,13 +348,13 @@ package com.rnkrsoft.platform.protocol;
 public interface GisPosReadable {
     /**
      * 经度
-     * @return
+     * @return 经度
      */
     String getLng();
 
     /**
      * 纬度
-     * @return
+     * @return 纬度
      */
     String getLat();
 }

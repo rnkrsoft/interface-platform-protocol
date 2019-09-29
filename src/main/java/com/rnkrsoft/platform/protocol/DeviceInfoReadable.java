@@ -347,31 +347,31 @@ package com.rnkrsoft.platform.protocol;
 public interface DeviceInfoReadable {
     /**
      * 应用版本号
-     * @return
+     * @return 应用版本号
      */
     String getAppVersion();
 
     /**
      * 操作系统版本号
-     * @return
+     * @return 操作系统版本号
      */
     String getOsVersion();
 
     /**
      * 设备类型 例如 iOS,Android
-     * @return
+     * @return 设备类型
      */
     String getDeviceType();
 
     /**
      * 设备型号
-     * @return
+     * @return 设备型号
      */
     String getDeviceModel();
 
     /**
      * 设备制造厂商
-     * @return
+     * @return 设备制造厂商
      */
     String getDeviceManufacturer();
 }

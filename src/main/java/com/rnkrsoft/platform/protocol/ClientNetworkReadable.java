@@ -347,13 +347,13 @@ package com.rnkrsoft.platform.protocol;
 public interface ClientNetworkReadable {
     /**
      * 客户端IP地址
-     * @return
+     * @return 客户端IP地址
      */
     String getClientIp();
 
     /**
      * 客户端端口号
-     * @return
+     * @return 客户端端口号
      */
     int getClientPort();
 }
