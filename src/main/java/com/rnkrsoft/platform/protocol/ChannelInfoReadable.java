@@ -347,13 +347,13 @@ package com.rnkrsoft.platform.protocol;
 public interface ChannelInfoReadable {
     /**
      * 获取通道号
-     * @return
+     * @return 通道号
      */
     String getChannelNo();
 
     /**
      * 获取通道名称
-     * @return
+     * @return 通道名称
      */
     String getChannelName();
 }
