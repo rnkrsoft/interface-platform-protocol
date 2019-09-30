@@ -209,13 +209,13 @@ package com.rnkrsoft.platform.protocol;
 public interface UserInfoWritable {
     /**
      * 设置用户号
-     * @param userId
+     * @param userId 设置用户号
      */
     void setUserId(String userId);
 
     /**
      * 设置用户名
-     * @param userName
+     * @param userName 设置用户名
      */
     void setUserName(String userName);
 }

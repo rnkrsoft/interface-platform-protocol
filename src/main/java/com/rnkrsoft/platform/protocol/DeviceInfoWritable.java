@@ -209,31 +209,31 @@ package com.rnkrsoft.platform.protocol;
 public interface DeviceInfoWritable {
     /**
      * 应用版本号
-     * @param appVersion
+     * @param appVersion 应用版本号
      */
     void setAppVersion(String appVersion);
 
     /**
      * 操作系统版本号
-     * @param osVersion
+     * @param osVersion 操作系统版本号
      */
     void setOsVersion(String osVersion);
 
     /**
      * 设备类型 例如 iOS,Android
-     * @param deviceType
+     * @param deviceType 设备类型
      */
     void setDeviceType(String deviceType);
 
     /**
      * 设备型号
-     * @param deviceModel
+     * @param deviceModel 设备型号
      */
     void setDeviceModel(String deviceModel);
 
     /**
      * 设备制造厂商
-     * @param deviceManufacturer
+     * @param deviceManufacturer 设备制造厂商
      */
     void setDeviceManufacturer(String deviceManufacturer);
 }

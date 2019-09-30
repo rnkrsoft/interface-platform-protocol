@@ -56,11 +56,13 @@
             <groupId>com.rnkrsoft.skeleton4j</groupId>
             <artifactId>skeleton4j-api</artifactId>
             <version>${skeleton4j-api.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.rnkrsoft.groundwork</groupId>
             <artifactId>groundwork</artifactId>
             <version>${groundwork.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.rnkrsoft.android</groupId>

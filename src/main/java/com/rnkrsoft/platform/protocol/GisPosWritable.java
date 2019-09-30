@@ -209,13 +209,13 @@ package com.rnkrsoft.platform.protocol;
 public interface GisPosWritable {
     /**
      * 经度
-     * @param lng
+     * @param lng 经度
      */
     void setLng(String lng);
 
     /**
      * 纬度
-     * @param lat
+     * @param lat 纬度
      */
     void setLat(String lat);
 }

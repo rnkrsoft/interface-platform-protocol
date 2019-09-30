@@ -234,6 +234,7 @@ public abstract class AsyncHandler<T> {
      * 通信层执行失败
      *
      * @param rspCode 错误码定义枚举
+     * @param detail 详情
      */
     public void fail(InterfaceRspCode rspCode, String detail) {
         fail(rspCode.getCode(), rspCode.getDesc(), detail);

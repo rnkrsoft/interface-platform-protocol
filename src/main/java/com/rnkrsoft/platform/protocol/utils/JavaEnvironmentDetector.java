@@ -240,7 +240,7 @@ public class JavaEnvironmentDetector {
 
     /**
      * 获取操作系统名称
-     * @return
+     * @return 操作系统名称
      */
     public static String getOsName() {
         if (isAndroid()) {
@@ -252,7 +252,7 @@ public class JavaEnvironmentDetector {
 
     /**
      * 获取操作系统版本号
-     * @return
+     * @return 操作系统版本号
      */
     public static String getOsVersion() {
         if (isAndroid()) {

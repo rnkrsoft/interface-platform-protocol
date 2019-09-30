@@ -209,13 +209,13 @@ package com.rnkrsoft.platform.protocol;
 public interface ClientNetworkWritable {
     /**
      * 客户端IP地址
-     * @param clientIp
+     * @param clientIp 客户端IP地址
      */
     void setClientIp(String clientIp);
 
     /**
      * 客户端端口号
-     * @param clientPort
+     * @param clientPort 客户端端口号
      */
     void setClientPort(int clientPort);
 }

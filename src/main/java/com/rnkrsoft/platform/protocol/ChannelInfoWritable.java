@@ -209,13 +209,13 @@ package com.rnkrsoft.platform.protocol;
 public interface ChannelInfoWritable {
     /**
      * 通道号
-     * @param channelNo
+     * @param channelNo  通道号
      */
     void setChannelNo(String channelNo);
 
     /**
      * 通道名称
-     * @param channelName
+     * @param channelName 通道名称
      */
     void setChannelName(String channelName);
 }
